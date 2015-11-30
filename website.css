@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: black;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.heading {
+	background-color: #000000;
+	color: #e5be48;
+	text-align: center;
+	padding: 40px;
+}
+
+.headingsub {
+	/*position: absolute;
+	left: 0;
+	right: 0;*/
+	font-family: 'Lato', sans-serif;
+	background-color: #ffffff;
+	padding: 100px 200px;
+}
+
+#presenting {
+	font-size: 30px;
+}
+
+div.headingsub > p {
+	margin: 10px 10px;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+div.headingsub > h4 {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div.heading > h1 {
+	font-size: 50px;
+}
+
+#menu {
+	background-image: url('/Users/BenClark/Desktop/binary.jpg');
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+#menutransbox {
+	font-size: 15px;
+	margin: 105px 100px;
+	padding: 55px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#maintitle {
+	font-size:65px
+}
+
+#yellowtitle {
+	color: rgba(229,190,72,1.0);
+}
+
+.bold {
+	color: #e5be48;
+}
+
+ul.menulinks > li {
+	display: inline;
+	padding: 10px;
+}
+
+ul.menulinks > li > a {
+	text-decoration: none;
+	color: #363839;
+}
+
+ul.menulinks > li > a:hover {
+	color: #e5be48;
+}
+
+button {
+	color: #e5be48;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	background-color: #000000; /*#363839*/
+	border: 1px black;
+	padding: 20px 70px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: #e5be48;
+	color: #000000; 
+}
+
+a {
+	color: #363839;
+}
+
+a:hover {
+	color: #e5be48;
+}
+
+@media screen and (max-width: 988px) {
+	
+	body {
+		background-color: black;
+		color: black;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	.heading {
+		background-color: #000000;
+		color: #e5be48;
+		text-align: center;
+		padding: 40px;
+	}
+
+	.headingsub {
+		/*position: absolute;
+		left: 0;
+		right: 0;*/
+		font-family: 'Lato', sans-serif;
+		background-color: #ffffff;
+		padding: 20px 40px;
+	}
+
+	#presenting {
+		font-size: 20px;
+	}
+
+	div.headingsub > p {
+		margin: 10px 10px;
+		font-size: 12px;
+		line-height: 150%;
+	}
+
+	div.headingsub > h4 {
+		font-size: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	div.heading > h1 {
+		font-size: 30px;
+	}
+
+	#menu {
+		background-image: url('/Users/BenClark/Desktop/binary.jpg');
+		background-attachment: fixed;
+		overflow: hidden;
+	}
+
+	#menutransbox {
+		font-size: 12px;
+		margin: 100px 30px;
+		padding: 25px;
+	    background-color: #ffffff;
+	    opacity: 0.7;
+	    text-align: center;
+	}
+
+	#maintitle {
+		font-size:30px
+	}
+
+	#yellowtitle {
+		color: rgba(229,190,72,1.0);
+	}
+
+	.bold {
+		color: #e5be48;
+	}
+
+	ul.menulinks > li {
+		display: inline;
+		padding: 10px;
+	}
+
+	ul.menulinks > li > a {
+		text-decoration: none;
+		color: #363839;
+	}
+
+	ul.menulinks > li > a:hover {
+		color: #e5be48;
+	}
+
+	button {
+		color: #e5be48;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 20px;
+		background-color: #000000; /*#363839*/
+		border: 1px black;
+		padding: 10px 35px;
+		border-radius: 10px;
+	}
+
+	button:hover {
+		background-color: #e5be48;
+		color: #000000; 
+	}
+
+	a {
+		color: #363839;
+	}
+
+	a:hover {
+		color: #e5be48;
+	}
+}
