@@ -193,7 +193,7 @@ a:hover {
 	}
 
 	#menu {
-		background-image: url('/Users/BenClark/Desktop/binary.jpg');
+		background-image: url('binary.jpg');
 		background-attachment: fixed;
 		overflow: hidden;
 	}
