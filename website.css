@@ -78,6 +78,7 @@ div.headingsub > h4 {
 	font-size: 25px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	line-height: 200%;
 }
 
 div.heading > h1 {
@@ -186,6 +187,7 @@ a:hover {
 		font-size: 15px;
 		margin-top: 10px;
 		margin-bottom: 10px;
+		line-height: 150%;
 	}
 
 	div.heading > h1 {
