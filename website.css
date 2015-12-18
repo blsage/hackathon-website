@@ -149,6 +149,19 @@ a:hover {
 	color: #e5be48;
 }
 
+.genericwhite {
+	background-color: white;
+	position: relative;
+	margin: 105px 100px;
+	padding: 55px;
+    background-color: #ffffff;
+    height: 100%;
+    font-size: 50px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
 @media screen and (max-width: 988px) {
 	
 	body {
