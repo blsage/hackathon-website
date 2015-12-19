@@ -64,8 +64,9 @@ body {
 	padding: 100px 200px;
 }
 
-#presenting {
+.presenting {
 	font-size: 30px;
+	text-decoration: none;
 }
 
 div.headingsub > p {
